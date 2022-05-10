@@ -15,5 +15,10 @@ public class Main {
 		Emprestimo.calcular(1000, 3);
 		Emprestimo.calcular(1000, Emprestimo.getDuasParcelas());
 		Emprestimo.calcular(3200, 2);
+		
+		Quadrilatero.area(3);
+		Quadrilatero.area(5d, 6d);
+		Quadrilatero.area(7, 8, 9);
+		Quadrilatero.area(5f, 5f);
 	}
 }
