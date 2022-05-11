@@ -16,9 +16,19 @@ public class Main {
 		Emprestimo.calcular(1000, Emprestimo.getDuasParcelas());
 		Emprestimo.calcular(3200, 2);
 		
-		Quadrilatero.area(3);
-		Quadrilatero.area(5d, 6d);
-		Quadrilatero.area(7, 8, 9);
-		Quadrilatero.area(5f, 5f);
+//		Quadrilatero.area(3);
+//		Quadrilatero.area(5d, 6d);
+//		Quadrilatero.area(7, 8, 9);
+//		Quadrilatero.area(5f, 5f);
+		
+		double areaQuadrado = Quadrilatero.area(3);
+		System.out.println("Área do Quadrado:" + areaQuadrado);
+		
+		double areaRetangulo = Quadrilatero.area(5, 5);
+		System.out.println("Área do Retângulo:" + areaRetangulo);
+		
+		double areaTrapezio = Quadrilatero.area(7, 8, 9);
+		System.out.println("Área do Trapézio:" + areaTrapezio);
+		
 	}
 }
