@@ -1,3 +1,7 @@
+import condicionaisFluxos.Quadrilatero;
+import metodos.Calculadora;
+import metodos.Emprestimo;
+import metodos.Mensagem;
 
 public class Main {
 
