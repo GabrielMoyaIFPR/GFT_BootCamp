@@ -1,4 +1,4 @@
-package br.com.dio.exceptions;
+package exceptions;
 
 public class DivisaoNaoExataException extends Exception{
 

@@ -1,4 +1,4 @@
-package br.com.dio.exceptions;
+package exceptions;
 
 import javax.swing.*;
 
